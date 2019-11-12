@@ -16,7 +16,14 @@ Jenkins server running on CentOS 7.4 in a Vagrant Box
 * Python 3.6
 * Docker server 19.X
 
-## Prerequisits
+## Download locally
+
+```bash
+git clone https://github.com/loncarales/jenkins-server-vagrant-box.git
+cd jenkins-server-vagrant-box
+```
+
+## Prerequisite
 
 These Vagrant plugins are needed
 
@@ -28,7 +35,7 @@ $ vagrant plugin install vagrant-hostmanager
 
 ## Create and configure machine according to Vagrantfile
 
-Hit vagrant up and sit back. You'll be asked for Administrator password, vagrant-hostmanager will update your hosts file accordingly.
+Hit vagrant up and sit back. You'll be asked for Administrator password, `vagrant-hostmanager` will update your hosts file accordingly.
 
 ```bash
 $ vagrant up
